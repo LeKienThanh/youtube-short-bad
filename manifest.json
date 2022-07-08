@@ -1,0 +1,15 @@
+{
+    "name":"YoutubeShortBad",
+    "description":"Dunno if this is gonna ever be useful to anyone, but hey, it's useful for me",
+    "version":"1.0",
+    "manifest_version": 2,
+    "icons":{"128":"icon.png"},
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions":["activeTab", "tabs", "storage", "contextMenus"]
+}
